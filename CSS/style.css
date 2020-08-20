@@ -38,13 +38,18 @@ html {
     box-sizing: border-box;
 }
 
+
 *,
-*::before,
-*::after {
+* ::before,
+* ::after {
     box-sizing: inherit;
 }
 
 .wrapper {
     max-width: 1060px;
-    margin: 0 after;
+    margin: 0 auto;
+}
+
+.header {
+    background-color: black;
 }
